@@ -14,8 +14,8 @@ app = Flask(__name__)
 # Constants
 HOST_NAME = "127.0.0.1"
 PORT = 3333
-CLIENT_ID = "f70feecb38e349b4841689f6695fc2f7"
-CLIENT_SECRET = "Iylq})#/ip-Qjp!V<>qJ"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 AUTH_URL = "https://auth.eagleeyenetworks.com"
 BASE_URL = "https://api.eagleeyenetworks.com"
 

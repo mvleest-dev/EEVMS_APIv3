@@ -558,7 +558,7 @@
         "kind": 5,
         "importPath": "dev_locallogin.localvmsauthentication",
         "description": "dev_locallogin.localvmsauthentication",
-        "peekOfCode": "app = Flask(__name__)\n#### please note this is an example script ans should not be used in production ####\n#### If you are using this script in production, please make sure to use a secure method to store the client secret and client id ###\n#### This script is for educational purposes only ####\n#### not recommended for production use, please use a production server like wsgi ####\n# Constants\nHOST_NAME = \"127.0.0.1\"\nPORT = 3333\nCLIENT_ID = \"f70feecb38e349b4841689f6695fc2f7\"\nCLIENT_SECRET = \"Iylq})#/ip-Qjp!V<>qJ\"",
+        "peekOfCode": "app = Flask(__name__)\n#### please note this is an example script ans should not be used in production ####\n#### If you are using this script in production, please make sure to use a secure method to store the client secret and client id ###\n#### This script is for educational purposes only ####\n#### not recommended for production use, please use a production server like wsgi ####\n# Constants\nHOST_NAME = \"127.0.0.1\"\nPORT = 3333\nCLIENT_ID = \"\"\nCLIENT_SECRET = \"\"",
         "detail": "dev_locallogin.localvmsauthentication",
         "documentation": {}
     },
@@ -567,7 +567,7 @@
         "kind": 5,
         "importPath": "dev_locallogin.localvmsauthentication",
         "description": "dev_locallogin.localvmsauthentication",
-        "peekOfCode": "HOST_NAME = \"127.0.0.1\"\nPORT = 3333\nCLIENT_ID = \"f70feecb38e349b4841689f6695fc2f7\"\nCLIENT_SECRET = \"Iylq})#/ip-Qjp!V<>qJ\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:",
+        "peekOfCode": "HOST_NAME = \"127.0.0.1\"\nPORT = 3333\nCLIENT_ID = \"\"\nCLIENT_SECRET = \"\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:",
         "detail": "dev_locallogin.localvmsauthentication",
         "documentation": {}
     },
@@ -576,7 +576,7 @@
         "kind": 5,
         "importPath": "dev_locallogin.localvmsauthentication",
         "description": "dev_locallogin.localvmsauthentication",
-        "peekOfCode": "PORT = 3333\nCLIENT_ID = \"f70feecb38e349b4841689f6695fc2f7\"\nCLIENT_SECRET = \"Iylq})#/ip-Qjp!V<>qJ\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:\n        return json.loads(response.text)",
+        "peekOfCode": "PORT = 3333\nCLIENT_ID = \"\"\nCLIENT_SECRET = \"\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:\n        return json.loads(response.text)",
         "detail": "dev_locallogin.localvmsauthentication",
         "documentation": {}
     },
@@ -585,7 +585,7 @@
         "kind": 5,
         "importPath": "dev_locallogin.localvmsauthentication",
         "description": "dev_locallogin.localvmsauthentication",
-        "peekOfCode": "CLIENT_ID = \"f70feecb38e349b4841689f6695fc2f7\"\nCLIENT_SECRET = \"Iylq})#/ip-Qjp!V<>qJ\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:\n        return json.loads(response.text)\n    else:",
+        "peekOfCode": "CLIENT_ID = \"\"\nCLIENT_SECRET = \"\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:\n        return json.loads(response.text)\n    else:",
         "detail": "dev_locallogin.localvmsauthentication",
         "documentation": {}
     },
@@ -594,7 +594,7 @@
         "kind": 5,
         "importPath": "dev_locallogin.localvmsauthentication",
         "description": "dev_locallogin.localvmsauthentication",
-        "peekOfCode": "CLIENT_SECRET = \"Iylq})#/ip-Qjp!V<>qJ\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:\n        return json.loads(response.text)\n    else:\n        return None",
+        "peekOfCode": "CLIENT_SECRET = \"\"\nAUTH_URL = \"https://auth.eagleeyenetworks.com\"\nBASE_URL = \"https://api.eagleeyenetworks.com\"\n# Utility Functions\ndef make_request(method, url, headers=None, auth=None):\n    response = requests.request(method, url, headers=headers, auth=auth)\n    if response.status_code == 200:\n        return json.loads(response.text)\n    else:\n        return None",
         "detail": "dev_locallogin.localvmsauthentication",
         "documentation": {}
     },
